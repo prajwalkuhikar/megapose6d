@@ -7,8 +7,6 @@ channels:
 dependencies:
   - python=3.9
   - pip
-  - wget
-  - python-wget
   - joblib
   - pytorch==1.11.0
   - torchvision==0.12.0
@@ -16,9 +14,7 @@ dependencies:
   - ipython
   - ipykernel
   - jupyterlab
-  - notebook
   - nb_conda_kernels
-  - jupyter_contrib_nbextensions
   - pinocchio
   - rclone
   - pillow
@@ -67,3 +63,6 @@ dependencies:
       - opencv-contrib-python 
       - roma 
       - torchgeometry
+      - wget
+      - jupyter_contrib_nbextensions
+      - notebook

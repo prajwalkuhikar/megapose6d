@@ -164,7 +164,10 @@ class Panda3dCamera:
         resolution_ = (resolution[1], resolution[0])
         window_props.setSize(*resolution_)
 
-        frame_buffer_props = p3d.core.FrameBufferProperties.getDefault()
+        # frame_buffer_props = p3d.core.FrameBufferProperties.getDefault()
+        frame_buffer_props = p3d.core.FrameBufferProperties()
+        frame_buffer_props.setRgbColor(1)  # Request RGB color buffer
+        frame_buffer_props.setDepthBits(1)  # Request depth buffer
         graphics_buffer = app.graphicsEngine.make_output(
             app.pipe,
             f"Graphics Buffer [{name}]",
@@ -175,6 +178,10 @@ class Panda3dCamera:
             app.win.getGsg(),
             app.win,
         )
+
+        if graphics_buffer is None:
+            print(f"Failed to create graphics buffer for camera {name}")
+            return None
 
         texture = p3d.core.Texture()
         graphics_buffer.addRenderTexture(
