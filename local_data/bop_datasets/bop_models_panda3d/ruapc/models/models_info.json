@@ -1,0 +1,16 @@
+{
+  "1": {"diameter": 103.058, "min_x": -13.5, "min_y": -13, "min_z": -48, "size_x": 27, "size_y": 26, "size_z": 96},
+  "2": {"diameter": 286.531, "min_x": -30, "min_y": -80, "min_z": -115, "size_x": 60, "size_y": 160, "size_z": 230},
+  "3": {"diameter": 196.321, "min_x": -19.05, "min_y": -72.39, "min_z": -63.5, "size_x": 38.1, "size_y": 144.78, "size_z": 127},
+  "4": {"diameter": 145.733, "min_x": -13.181, "min_y": -32.287, "min_z": -71.501, "size_x": 26.362, "size_y": 64.574, "size_z": 143.002},
+  "5": {"diameter": 145.43, "min_x": -17.5, "min_y": -65, "min_z": -27.5, "size_x": 35, "size_y": 130, "size_z": 55},
+  "6": {"diameter": 256.246, "min_x": -29.538, "min_y": -83.503, "min_z": -105.683, "size_x": 59.076, "size_y": 167.006, "size_z": 211.366},
+  "7": {"diameter": 182.637, "min_x": -47.5, "min_y": -45.625, "min_z": -80, "size_x": 95, "size_y": 91.25, "size_z": 160},
+  "8": {"diameter": 202.24, "min_x": -53, "min_y": -71.5, "min_z": -48, "size_x": 106, "size_y": 143, "size_z": 96, "symmetries_discrete": [[-1, -4.31991e-14, 0, 0, 4.31991e-14, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]]},
+  "9": {"diameter": 134.716, "min_x": -20.32, "min_y": -58.42, "min_z": -26.67, "size_x": 40.64, "size_y": 116.84, "size_z": 53.34},
+  "10": {"diameter": 214.788, "min_x": -32.501, "min_y": -54, "min_z": -94.5, "size_x": 65, "size_y": 108, "size_z": 189},
+  "11": {"diameter": 163.842, "min_x": -40.182, "min_y": -51.9745, "min_z": -69.045, "size_x": 80.364, "size_y": 103.949, "size_z": 138.09},
+  "12": {"diameter": 236.427, "min_x": -22.5, "min_y": -90, "min_z": -75, "size_x": 45, "size_y": 180, "size_z": 150},
+  "13": {"diameter": 202.025, "min_x": -8.50001, "min_y": -25, "min_z": -97.5, "size_x": 17, "size_y": 50, "size_z": 195},
+  "14": {"diameter": 214.369, "min_x": -9.25001, "min_y": -49.5, "min_z": -97, "size_x": 18.5, "size_y": 99, "size_z": 194}
+}
