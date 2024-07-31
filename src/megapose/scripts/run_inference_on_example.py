@@ -1,7 +1,12 @@
 # Standard Library
+import os
+
+#Changes for HOME and THREADS here
+os.environ['HOME'] = os.environ.get('USERPROFILE', '')
+
+
 import argparse
 import json
-import os
 from pathlib import Path
 from typing import List, Tuple, Union
 
